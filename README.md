@@ -41,7 +41,7 @@ The aim of this analysis is to build a linear regression model that can predict 
 
 ### Setup Instructions
 
-TThis project's environment is linreg-env.yml
+This project's environment is linreg-env.yml
 
 ## Business Understanding
 
