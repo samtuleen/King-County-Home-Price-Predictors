@@ -63,6 +63,7 @@ The features of my final model include total square footage of living space, bat
 ## Summary of Model:
 **Target: Sales Price**
 After filtering the data to be relevant to first time home buyers(narrowed down size and price range), we can visualise the distribution of sales prices in King County over the last 3 years:
+![](https://github.com/samtuleen/Predicting-Most-Valuable-Home-Projects-In-King-County-Analysis/blob/master/reports/figures/visual6.png?raw=true)
 
 ## Evaluation
 
