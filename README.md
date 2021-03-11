@@ -61,22 +61,45 @@ I've merged and cleaned the provided data sets based on variable I've concluded 
 The features of my final model include total square footage of living space, bathroom counts, deck square footage, building grade and township.
 
 ## Summary of Model:
-**Target: Sales Price**
+### Target: Sales Price
 After filtering the data to be relevant to first time home buyers(narrowed down size and price range), we can visualise the distribution of sales prices in King County over the last 3 years:
-![](https://github.com/samtuleen/Predicting-Most-Valuable-Home-Projects-In-King-County-Analysis/blob/master/reports/figures/visual6.png?raw=true)
+![visual6](https://github.com/samtuleen/Predicting-Most-Valuable-Home-Projects-In-King-County-Analysis/blob/master/reports/figures/visual6.png?raw=true)
+
+**The features I chose for my final model were:**
+
+**Total living square footage**
+**Bathroom count**
+**Enclosed porch square footage**
+**Deck square footage**
+**Building grade (7 categories)**
+**Township (8 categories)**
+
+### Assumptions
+My final model produced an $R^2$ score of 0.685 and while this is somewhat high, it only mildly met the homoscedasticity assumption and did not meet the normality assumption, as can be see from the following visualisations:
+![homo](https://github.com/samtuleen/Predicting-Most-Valuable-Home-Projects-In-King-County-Analysis/blob/master/reports/figures/finalhomosc.png?raw=true)
+![normal](https://github.com/samtuleen/Predicting-Most-Valuable-Home-Projects-In-King-County-Analysis/blob/master/reports/figures/finalnormality.png?raw=true)
 
 ## Evaluation
 
 The model does have some limitations: given that some of the variables needed to be log and sqrt-transformed to satisfy regression assumptions, any new data used with this model would need to undergo similar processing. In addition, considering regional differences in housing prices, this model's applicability to data from other counties may be limited. And lastly, since outliers were removed, the model may not accurately predict extreme values.
 
-## Conclusion
-
+### Analysis Conclusions and Recommendations:
+**Conclusions**
 1- Total living square footage is a major factor in the price of a home. The larger the home, the pricier. On this note, should a homeowner wish to increase the price of their home before selling by adding to it's living space, converting the garage to an additional bedroom is a highly profitable choice.
 
 2- The grade of a house has the greatest effect on it's value. A surefire way to instantly add value to a home is to upgrade the construction using the highest quality materials.
 
 3 - Location, location, and again, location. The location of a home, be it determined by zip code or township, is a great predictor of the price of a home. If a well built, high quality home is contructed in a bad area, most likely the home owner will have a difficult time sell or will have to comprimise on it's sale price. On the flip side, a run down home in a highly sought after area usually doesn't lose too much value since many people are willing to make the purchase with the intent of fixing it up.
 
-4 - Enclosed porches and decks add to the value of a home. Home owners appreciate having the ability to enjoy the outdoors while maintaining a slight sense of seclusion.
+4 - Decks add to the value of a home. Home owners appreciate having the ability to enjoy the outdoors while maintaining a slight sense of seclusion, thus making these homes desireable and more expensive.
+![decks](https://github.com/samtuleen/Predicting-Most-Valuable-Home-Projects-In-King-County-Analysis/blob/master/reports/figures/visual31.png?raw=true)
 
 5- The number of bathrooms factors into the high sale price of the house. The more bathrooms, the more valuable.
+
+**Recommendations**
+New home buyers should consider the **location** of the home first, then **size (square footage)**, and then **grade** to when deciding on a purchase budget. I could also recommend that first time home buyers consider purchasing smaller than their desired size or less than their desired quality and then later upgrading and expanding the home's living space to increase value.
+
+For diy and fix-it-up home owners who are looking to get the most value out of one of the largest investments they've made, my recommendations are to:
+**-Add an extra bedroom (perhaps by converting the garage),**
+**-Add an additional bathroom,**
+**-And to add or update outdoor living space.**
