@@ -80,7 +80,7 @@ After filtering the data to be relevant to first time home buyers(narrowed down 
 **Townships**
 
 ### Assumptions
-My final model produced an $R^2$ score of 0.685 and while this is somewhat high, it only mildly met the homoscedasticity assumption and did not meet the normality assumption, as can be see from the following visualisations:
+My final model produced an *R-squared* score of 0.685 and while this is somewhat high, it only mildly met the homoscedasticity assumption and did not meet the normality assumption, as can be see from the following visualisations:
 ![homo](https://github.com/samtuleen/Predicting-Most-Valuable-Home-Projects-In-King-County-Analysis/blob/master/reports/figures/finalhomosc.png?raw=true)
 ![normal](https://github.com/samtuleen/Predicting-Most-Valuable-Home-Projects-In-King-County-Analysis/blob/master/reports/figures/finalnormality.png?raw=true)
 
