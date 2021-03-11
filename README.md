@@ -91,15 +91,20 @@ The model does have some limitations: given that some of the variables needed to
 
 3 - Location, location, and again, location. The location of a home, be it determined by zip code or township, is a great predictor of the price of a home. If a well built, high quality home is contructed in a bad area, most likely the home owner will have a difficult time sell or will have to comprimise on it's sale price. On the flip side, a run down home in a highly sought after area usually doesn't lose too much value since many people are willing to make the purchase with the intent of fixing it up.
 
-4 - Decks add to the value of a home. Home owners appreciate having the ability to enjoy the outdoors while maintaining a slight sense of seclusion, thus making these homes desireable and more expensive.
+4- The number of bathrooms factors into the high sale price of the house. The more bathrooms, the more valuable.
+
+5 - Decks add to the value of a home. Home owners appreciate having the ability to enjoy the outdoors while maintaining a slight sense of seclusion, thus making these homes desireable and more expensive.
 ![decks](https://github.com/samtuleen/Predicting-Most-Valuable-Home-Projects-In-King-County-Analysis/blob/master/reports/figures/visual31.png?raw=true)
 
-5- The number of bathrooms factors into the high sale price of the house. The more bathrooms, the more valuable.
 
 **Recommendations**
+
 New home buyers should consider the **location** of the home first, then **size (square footage)**, and then **grade** to when deciding on a purchase budget. I could also recommend that first time home buyers consider purchasing smaller than their desired size or less than their desired quality and then later upgrading and expanding the home's living space to increase value.
 
 For diy and fix-it-up home owners who are looking to get the most value out of one of the largest investments they've made, my recommendations are to:
+
 **-Add an extra bedroom (perhaps by converting the garage),**
+
 **-Add an additional bathroom,**
+
 **-And to add or update outdoor living space.**
