@@ -68,11 +68,16 @@ After filtering the data to be relevant to first time home buyers(narrowed down 
 **The features I chose for my final model were:**
 
 **Total living square footage**
+
 **Bathroom count**
+
 **Enclosed porch square footage**
+
 **Deck square footage**
-**Building grade (7 categories)**
-**Township (8 categories)**
+
+**Building grades**
+
+**Townships**
 
 ### Assumptions
 My final model produced an $R^2$ score of 0.685 and while this is somewhat high, it only mildly met the homoscedasticity assumption and did not meet the normality assumption, as can be see from the following visualisations:
@@ -85,6 +90,7 @@ The model does have some limitations: given that some of the variables needed to
 
 ### Analysis Conclusions and Recommendations:
 **Conclusions**
+
 1- Total living square footage is a major factor in the price of a home. The larger the home, the pricier. On this note, should a homeowner wish to increase the price of their home before selling by adding to it's living space, converting the garage to an additional bedroom is a highly profitable choice.
 
 2- The grade of a house has the greatest effect on it's value. A surefire way to instantly add value to a home is to upgrade the construction using the highest quality materials.
