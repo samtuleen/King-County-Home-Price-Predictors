@@ -60,6 +60,10 @@ I've merged and cleaned the provided data sets based on variable I've concluded 
 
 The features of my final model include total square footage of living space, bathroom counts, deck square footage, building grade and township.
 
+## Summary of Model:
+**Target: Sales Price**
+After filtering the data to be relevant to first time home buyers(narrowed down size and price range), we can visualise the distribution of sales prices in King County over the last 3 years:
+
 ## Evaluation
 
 The model does have some limitations: given that some of the variables needed to be log and sqrt-transformed to satisfy regression assumptions, any new data used with this model would need to undergo similar processing. In addition, considering regional differences in housing prices, this model's applicability to data from other counties may be limited. And lastly, since outliers were removed, the model may not accurately predict extreme values.
