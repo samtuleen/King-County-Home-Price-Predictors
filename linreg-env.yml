@@ -1,0 +1,29 @@
+name: Environment-name
+channels:
+  - defaults
+dependencies:
+  - certifi=2020.12.5=py37haa95532_0
+  - pip=21.0.1=py37haa95532_0
+  - python=3.7.0=hea74fb7_0
+  - setuptools=52.0.0=py37haa95532_0
+  - vc=14.2=h21ff451_1
+  - vs2015_runtime=14.27.29016=h5e58377_2
+  - wheel=0.36.2=pyhd3eb1b0_0
+  - wincertstore=0.2=py37_0
+  - pip:
+    - atomicwrites==1.4.0
+    - attrs==20.3.0
+    - colorama==0.4.4
+    - importlib-metadata==3.7.2
+    - iniconfig==1.1.1
+    - more-itertools==8.7.0
+    - packaging==20.9
+    - pluggy==0.13.1
+    - py==1.10.0
+    - pyparsing==2.4.7
+    - pytest==6.2.2
+    - pytest-warnings==0.3.1
+    - toml==0.10.2
+    - typing-extensions==3.7.4.3
+    - zipp==3.4.1
+prefix: C:\Users\15164\anaconda3\envs\Environment-name
