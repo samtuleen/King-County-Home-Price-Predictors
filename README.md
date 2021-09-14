@@ -37,7 +37,7 @@ The aim of this analysis is to build a linear regression model that can predict 
 ### Quick Links
 
 1. [Final Analysis Notebook](notebooks/reports/final_notebook.ipynb)
-2. [Presentation Slides](reports/presentation.pdf)
+2. [Presentation Slides](reports/presentation_pdf.pdf)
 
 ### Setup Instructions
 
