@@ -1,3 +1,5 @@
+![king_county](https://user-images.githubusercontent.com/71333855/146626375-e667f2c3-928e-49b2-bb50-43fd7052a0cd.jpg)
+
 # King County Home Price Analysis
 
 The aim of this analysis is to build a linear regression model that can predict which home improvement projects positively affect house prices with the greatest accuracy possible. The results can inform home owners interested in selling their homes about the most profitable improvements to consider for adding value to their home and thus increasing sale prices.
